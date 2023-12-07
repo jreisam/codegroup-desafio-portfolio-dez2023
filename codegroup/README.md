@@ -35,7 +35,9 @@ PostgreSQL, Apache Kafka: `docker compose up` em `.\src\main\resources\dockerfil
 Para Rodar o Front-End:
 ---------------------            
 URL: (http://localhost:4200)
-* Angular Web App: `ng serve --open` em `.\src\main\webapp\angularclient\`
+* Instalar o Angular: `npm install -g @angular/cli`
+* Instalar os pacotes: `npm install`
+* Inicializar: `ng serve --open` em `.\src\main\webapp\angularclient\`
 
 \
 Tecnologias usadas na implementação:

@@ -24,7 +24,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <org.projectlombok.version>1.18.24</org.projectlombok.version>
+        <org.projectlombok.version>1.18.30</org.projectlombok.version>
         <java.version>17</java.version>
         <maven.compiler.release>17</maven.compiler.release>
         <io.springfox.version>3.0.0</io.springfox.version>
@@ -82,7 +82,6 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
-            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
